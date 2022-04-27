@@ -8,6 +8,9 @@ declare(strict_types=1);
 
 namespace Pmp\InvoiceBlock\Plugin;
 
+/**
+ * Class InsertPdfInvoiceBlock
+ */
 class InsertPdfInvoiceBlock
 {
     /**
@@ -26,12 +29,11 @@ class InsertPdfInvoiceBlock
 
     /**
      * Add extra cms block on the end of pdf invoice.
-     * 
+     *
      * @param \Magento\Sales\Model\Order\Pdf\Invoice $subject
      * @param \Zend_Pdf $pdf
      * @param array $invoices
      * @return \Zend_Pdf
-     * @throws \Magento\Framework\Exception\LocalizedException
      */
     public function afterGetPdf(
         \Magento\Sales\Model\Order\Pdf\Invoice $subject,

@@ -11,6 +11,9 @@ namespace Pmp\InvoiceBlock\Setup\Patch\Data;
 use Magento\Framework\Setup\Patch\DataPatchInterface;
 use Magento\Framework\Setup\Patch\PatchRevertableInterface;
 
+/**
+ * Class AddCMSBlock
+ */
 class AddCMSBlock implements DataPatchInterface, PatchRevertableInterface
 {
     /**
