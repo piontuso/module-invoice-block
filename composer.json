@@ -2,7 +2,7 @@
     "name": "pmp/module-invoice-block",
     "description": "CMS block for display thank you message on invoice.",
     "type": "magento2-module",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "require": {
         "magento/module-sales": "^102.0|^103.0"
     },
